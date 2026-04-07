@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Discover Henan</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="toubu">
+    <div class="top">
+      <h3>Discover Henan Province</h3>
+      <div class="clear"></div>
+    </div>
+    <div class="toububox">
+      <div class="daohang">
+        <nav class="nav">
+          <ul>
+            <li class="nav-welcome"><a href="index.html">Welcome</a></li>
+            <li class="active"><a href="home.html">Home</a></li>
+            <li><a href="henan.html">About Henan</a></li>
+            <li><a href="attractions.html">Attractions</a></li>
+            <li><a href="food.html">Cuisine</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-container">
+    <div class="home-carousel" id="homeCarousel">
+      <div class="carousel-inner" id="carouselInner">
+        <div class="carousel-slide">
+          <img src="images/banner.jpg" alt="Henan Scenery">
+          <div class="carousel-caption">
+            <h3>The Majestic Yellow River</h3>
+            <p>Witness the cradle of Chinese civilization flowing through spectacular landscapes</p>
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <img src="images/banner2.jpg" alt="Ancient Architecture">
+          <div class="carousel-caption">
+            <h3>Timeless Architecture</h3>
+            <p>Explore thousands of years of magnificent building heritage across the province</p>
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <img src="images/banner3.jpg" alt="Shaolin Temple">
+          <div class="carousel-caption">
+            <h3>Shaolin Temple</h3>
+            <p>Home of legendary martial arts and Zen Buddhism since ancient times</p>
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <img src="images/6.jpg" alt="Rural Beauty">
+          <div class="carousel-caption">
+            <h3>Rural Charm</h3>
+            <p>Discover the peaceful countryside and vibrant local communities of Henan</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-arrow prev" onclick="moveCarousel(-1)">&#10094;</button>
+      <button class="carousel-arrow next" onclick="moveCarousel(1)">&#10095;</button>
+      <div class="carousel-dots" id="carouselDots">
+        <span class="dot active" onclick="goToSlide(0)"></span>
+        <span class="dot" onclick="goToSlide(1)"></span>
+        <span class="dot" onclick="goToSlide(2)"></span>
+        <span class="dot" onclick="goToSlide(3)"></span>
+      </div>
+    </div>
+
+    <div class="home-section">
+      <div class="section-title"><h2>Overview of Henan</h2></div>
+      <div class="home-overview">
+        <div class="overview-text">
+          <p>Henan Province, located in the central part of China, is known as the "Cradle of Chinese Civilization." With a history spanning over 5,000 years, it was the political, economic, and cultural center of China for over 3,000 years. The province is home to numerous historical sites, including the ancient capitals of Luoyang, Kaifeng, Anyang, and Zhengzhou.</p>
+          <p>Henan boasts diverse landscapes ranging from the towering Taihang Mountains in the north to the Funiu Mountains in the west, and the vast Central Plains that stretch across its heartland. The Yellow River, China's mother river, flows through the province, nurturing its fertile lands and rich cultural heritage.</p>
+          <p>Today, Henan is a vibrant modern province with a population of over 99 million people, making it the third most populous province in China. It serves as a major transportation hub connecting all parts of the country.</p>
+        </div>
+        <div class="overview-image">
+          <img src="images/2.jpg" alt="Henan Overview">
+        </div>
+      </div>
+    </div>
+
+    <div class="home-section">
+      <div class="section-title"><h2>Featured Destinations</h2></div>
+      <div class="home-grid">
+        <div class="grid-card">
+          <div class="card-img"><img src="images/jd1.jpg" alt="Longmen Grottoes"></div>
+          <div class="card-body">
+            <h3>Longmen Grottoes</h3>
+            <p>A UNESCO World Heritage Site featuring over 100,000 Buddhist statues carved into limestone cliffs along the Yi River near Luoyang, dating back to the Northern Wei Dynasty.</p>
+          </div>
+        </div>
+        <div class="grid-card">
+          <div class="card-img"><img src="images/jd2.jpg" alt="Shaolin Temple"></div>
+          <div class="card-body">
+            <h3>Shaolin Temple</h3>
+            <p>The birthplace of Zen Buddhism and Chinese martial arts, nestled in the forests of Mount Song. This legendary temple has inspired millions worldwide for over 1,500 years.</p>
+          </div>
+        </div>
+        <div class="grid-card">
+          <div class="card-img"><img src="images/jd3.jpg" alt="Yin Ruins"></div>
+          <div class="card-body">
+            <h3>Yin Ruins</h3>
+            <p>The ancient capital of the Shang Dynasty (1300-1046 BC) in Anyang, where oracle bone inscriptions were first discovered, marking the dawn of recorded Chinese history.</p>
+          </div>
+        </div>
+        <div class="grid-card">
+          <div class="card-img"><img src="images/jd4.jpg" alt="Mount Song"></div>
+          <div class="card-body">
+            <h3>Mount Song</h3>
+            <p>One of the Five Great Mountains of China, located in Dengfeng. Its sacred peaks have been a center of Taoist and Buddhist worship for millennia.</p>
+          </div>
+        </div>
+        <div class="grid-card">
+          <div class="card-img"><img src="images/jd5.jpg" alt="White Horse Temple"></div>
+          <div class="card-body">
+            <h3>White Horse Temple</h3>
+            <p>Widely regarded as the cradle of Chinese Buddhism, this was the first Buddhist temple built in China during the Eastern Han Dynasty around 68 AD.</p>
+          </div>
+        </div>
+        <div class="grid-card">
+          <div class="card-img"><img src="images/7.jpg" alt="Yuntai Mountain"></div>
+          <div class="card-body">
+            <h3>Yuntai Mountain</h3>
+            <p>A UNESCO Global Geopark featuring stunning red sandstone canyons, waterfalls, and lush forests in Jiaozuo, offering some of Henan's most spectacular scenery.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="home-section">
+      <div class="section-title"><h2>Latest News & Updates</h2></div>
+      <div class="home-news">
+        <div class="news-main">
+          <div class="news-item">
+            <div class="news-thumb"><img src="images/1.jpg" alt="News"></div>
+            <div class="news-info">
+              <h4>Henan's Cultural Tourism Booming in 2025</h4>
+              <p>The province welcomes record numbers of domestic and international visitors, with heritage sites and natural attractions drawing increased attention from travelers worldwide.</p>
+            </div>
+          </div>
+          <div class="news-item">
+            <div class="news-thumb"><img src="images/3.jpg" alt="News"></div>
+            <div class="news-info">
+              <h4>New High-Speed Rail Lines Connect Major Attractions</h4>
+              <p>Upgraded transportation infrastructure makes it easier than ever to explore Henan's top destinations, with direct rail access to Longmen Grottoes and Mount Song.</p>
+            </div>
+          </div>
+          <div class="news-item">
+            <div class="news-thumb"><img src="images/4.jpg" alt="News"></div>
+            <div class="news-info">
+              <h4>Luoyang Peony Festival Draws Global Visitors</h4>
+              <p>The annual peony festival showcases millions of blooming flowers across the ancient capital, celebrating one of China's most beloved floral traditions.</p>
+            </div>
+          </div>
+          <div class="news-item">
+            <div class="news-thumb"><img src="images/5.jpg" alt="News"></div>
+            <div class="news-info">
+              <h4>Henan's Top Ten Red Tourism Routes Released</h4>
+              <p>Discover the revolutionary heritage of Henan through curated travel routes connecting important historical sites from China's modern history.</p>
+            </div>
+          </div>
+        </div>
+        <div class="news-sidebar">
+          <div class="sidebar-box">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="henan.html" style="color:#fff">About Henan</a></li>
+              <li><a href="attractions.html" style="color:#fff">Tourist Attractions</a></li>
+              <li><a href="food.html" style="color:#fff">Henan Cuisine</a></li>
+              <li><a href="index.html" style="color:#fff">Back to Welcome</a></li>
+            </ul>
+          </div>
+          <div class="sidebar-box" style="background: linear-gradient(135deg, #e5d0af, #b49665);">
+            <h3>Travel Tips</h3>
+            <ul>
+              <li>Best time to visit: Spring &amp; Autumn</li>
+              <li>Carry cash for local markets</li>
+              <li>Learn basic Mandarin phrases</li>
+              <li>Try the local street food</li>
+              <li>Respect temple customs</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>Discover Henan - The Heart of Ancient China</p>
+    <p class="email">i25035909@student.newinti.edu.my</p>
+  </footer>
+
+  <script>
+    var currentSlide = 0;
+    var totalSlides = 4;
+    var autoPlayTimer;
+
+    function moveCarousel(direction) {
+      currentSlide += direction;
+      if (currentSlide < 0) currentSlide = totalSlides - 1;
+      if (currentSlide >= totalSlides) currentSlide = 0;
+      updateCarousel();
+      resetAutoPlay();
+    }
+
+    function goToSlide(index) {
+      currentSlide = index;
+      updateCarousel();
+      resetAutoPlay();
+    }
+
+    function updateCarousel() {
+      var inner = document.getElementById('carouselInner');
+      inner.style.transform = 'translateX(-' + (currentSlide * 25) + '%)';
+      var dots = document.querySelectorAll('#carouselDots .dot');
+      for (var i = 0; i < dots.length; i++) {
+        dots[i].className = i === currentSlide ? 'dot active' : 'dot';
+      }
+    }
+
+    function resetAutoPlay() {
+      clearInterval(autoPlayTimer);
+      autoPlayTimer = setInterval(function () {
+        moveCarousel(1);
+      }, 4500);
+    }
+
+    resetAutoPlay();
+  </script>
+</body>
+</html>
